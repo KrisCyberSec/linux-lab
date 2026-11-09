@@ -1,0 +1,1 @@
+Hardened SSH: password auth was already off (Ubuntu cloud default). Disabled direct root login and set both options explicitly in 10-hardening.conf. Validated with sshd -t, restarted ssh, confirmed with sshd -T, and tested key login from my Mac. Kept a second session open in case of lockout.
