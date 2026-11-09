@@ -1,0 +1,1 @@
+Created personal admin account 'kris' with sudo access. Verified by switching to kris and running sudo whoami (returned root). Incident: password was accidentally exposed in shell history, so I cleared the history and rotated the password.
