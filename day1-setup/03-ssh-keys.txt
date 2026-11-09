@@ -1,0 +1,1 @@
+Set up SSH key login for kris: generated an ed25519 key pair on my Mac, added the public key to authorized_keys, and set permissions (700 on .ssh, 600 on authorized_keys). Verified by logging in from my Mac with no password prompt.
