@@ -1,0 +1,1 @@
+Found server clock ~4 hours behind (VM paused while Mac slept). NTP (chrony) was running but won't jump large offsets automatically. Forced correction with 'sudo chronyc makestep' and confirmed 'System clock synchronized: yes' with timedatectl. Accurate time matters for logs, authentication, and transaction timestamps.
