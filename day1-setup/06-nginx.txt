@@ -1,0 +1,1 @@
+Installed nginx web server (active and enabled at boot). Verified with systemctl status, curl localhost, and Safari from my Mac. Troubleshooting: page loaded in Safari but not in another browser, so the issue was the client, not the server. Replaced the default page with a custom index.html in /var/www/html.
