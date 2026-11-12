@@ -1,0 +1,13 @@
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp (OpenSSH)           ALLOW IN    Anywhere                  
+80/tcp (Nginx HTTP)        ALLOW IN    Anywhere                  
+22/tcp (OpenSSH (v6))      ALLOW IN    Anywhere (v6)             
+80/tcp (Nginx HTTP (v6))   ALLOW IN    Anywhere (v6)             
+
+Enabled ufw firewall: deny all incoming by default, allow only SSH (22) and HTTP (80). Allowed SSH before enabling to avoid lockout. Verified SSH and the web page still work from my Mac.
