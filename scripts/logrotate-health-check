@@ -1,0 +1,7 @@
+/home/ubuntu/health-check.log {
+    weekly
+    rotate 4
+    compress
+    missingok
+    notifempty
+}
