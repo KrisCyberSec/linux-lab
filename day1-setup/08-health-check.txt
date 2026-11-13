@@ -1,0 +1,1 @@
+Wrote health-check.sh to report disk usage (warns over 80%), available memory, and whether nginx, chrony and ufw are running. Tested the warning by stopping nginx, confirmed the alert, then restarted it. Scheduled it with cron every 5 minutes, logging to ~/health-check.log. Next improvement: rotate the log with logrotate so it can't fill the disk.
